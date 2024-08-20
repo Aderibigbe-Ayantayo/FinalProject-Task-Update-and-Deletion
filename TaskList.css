@@ -1,0 +1,42 @@
+/* Ensure the gradient background covers the entire viewport */
+.gradient-background {
+    min-height: 100vh; /* Full height of the viewport */
+    width: 100%;
+    background: linear-gradient(90deg, #00008B, #FFB6C1, #ADD8E6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Additional styling for the buttons */
+.gradient-background button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.button-edit {
+    background: linear-gradient(90deg, #00008B, #ADD8E6);
+}
+
+.button-delete {
+    background: linear-gradient(90deg, #FFB6C1, #ADD8E6);
+}
+
+/* Styling for the form inputs */
+input, textarea, select {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

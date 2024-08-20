@@ -1,0 +1,49 @@
+/* TaskForm.css */
+
+.taskform-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background: linear-gradient(to bottom, #001f3f, #007BFF); /* Deep blue to light blue gradient */
+}
+
+.taskForm {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background for the form */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds shadow for a more defined look */
+    width: 300px;
+    text-align: center;
+}
+
+.taskForm h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.taskForm input[type="text"],
+.taskForm textarea,
+.taskForm input[type="date"],
+.taskForm select {
+    width: 18rem;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.taskForm button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF; /* Light blue button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.taskForm button:hover {
+    background-color: #0056b3; /* Slightly darker blue on hover */
+}
